@@ -16,16 +16,17 @@ ul {
 li {
    margin: 0 10px;
 }
-a{
+a,
+.hero-p {
    color: #e5e7eb;
    font-size: 18px;
 }
 .header-logo {
    font-size: 24px;
-   color: #f9faf8;
 }
 header,
-ul {
+ul,
+.hero {
    display: flex;
 }
 header {
@@ -33,7 +34,27 @@ header {
    align-items: center;
    height: 40px;
 }
-.header {
-   background-color: #1f2937;
-   
+.header,
+.section-1 {
+   background-color: #1f2937;  
+}
+.hero-h1 {
+   font-size: 48px;
+   font-weight: extra-bold;
+}
+.hero {
+   height: 400px;
+   align-items: center;
+}
+button {
+background-color: #3882f6;
+padding: 5px 20px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+}
+button,
+.hero-h1,
+.header-logo {
+   color: #f9faf8;
 }

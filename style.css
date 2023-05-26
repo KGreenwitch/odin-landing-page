@@ -26,7 +26,9 @@ a,
 }
 header,
 ul,
-.hero {
+.hero,
+.food,
+figure {
    display: flex;
 }
 header {
@@ -57,4 +59,28 @@ button,
 .hero-h1,
 .header-logo {
    color: #f9faf8;
+}
+h2 {
+   font-size: 32px;
+   font-weight: extra-bold;
+   color: #1f2937;
+   text-align: center;
+   padding: 30px;
+}
+figure {
+   flex-direction: column;
+}
+.section-2 {
+   height: 350px;
+
+}
+figcaption {
+   width: 150px;
+   text-align: center;
+}
+.food {
+   justify-content: space-around;
+}
+figure img {
+   border-radius: 10px;
 }

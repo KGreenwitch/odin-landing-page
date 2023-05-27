@@ -84,6 +84,7 @@ figcaption {
 }
 figure img {
    border-radius: 10px;
+   object-fit: cover;
 }
 .section-3 {
    background-color: #e5e7eb;

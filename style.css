@@ -30,7 +30,8 @@ ul,
 .food,
 figure,
 .quote,
-.section-4 .container {
+.section-4 .container,
+footer .container {
    display: flex;
 }
 header {
@@ -39,7 +40,8 @@ header {
    height: 40px;
 }
 .header,
-.section-1 {
+.section-1,
+footer {
    background-color: #1f2937;  
 }
 .hero-h1 {
@@ -61,7 +63,8 @@ border: none;
 }
 button,
 .hero-h1,
-.header-logo {
+.header-logo,
+footer {
    color: #f9faf8;
 }
 h2 {
@@ -126,4 +129,8 @@ figure img {
 }
 .signup-text {
    font-size: 11px;
+}
+footer .container {
+   justify-content: center;
+   padding: 20px;
 }

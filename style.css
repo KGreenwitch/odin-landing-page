@@ -29,7 +29,8 @@ ul,
 .hero,
 .food,
 figure,
-.quote {
+.quote,
+.section-4 .container {
    display: flex;
 }
 header {
@@ -52,9 +53,11 @@ header {
 button {
 background-color: #3882f6;
 padding: 5px 20px;
-border: none;
 border-radius: 5px;
+}
+.hero-button {
 margin-top: 10px;
+border: none;
 }
 button,
 .hero-h1,
@@ -104,4 +107,23 @@ figure img {
 }
 .quote-author {
    align-self: flex-end;
+}
+.section-4 .container {
+   background-color: #3882f6;
+   margin: 50px auto;
+   border-radius: 10px;
+   color: #f9faf8;
+}
+.section-4 .container {
+   justify-content: space-around;  
+   padding: 20px ;
+}
+.action-button {
+   border: #f9faf8 solid 2px;   
+}
+.action-text {
+   font-weight: bold;
+}
+.signup-text {
+   font-size: 11px;
 }
